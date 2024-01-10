@@ -1,0 +1,82 @@
+body{
+        background:#ccc;
+    
+}
+p{
+    font-size: 1.25rem;;
+}
+
+
+
+.logo{
+    border:1px solid transparent;
+}
+#bg-img{
+    background: url('Images/bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+     min-height: 500px; 
+}
+
+.card-footer{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card-footer a{
+    color: #fff;
+}
+
+
+
+#About{
+    margin-top: -200px;
+}
+
+#About span{
+    padding: 10px 20px 10px 20px;
+}
+
+#About p{
+    text-justify: auto;
+}
+#About hr{
+    border-width: 3px;
+    margin-top: 20px;
+    color: red;
+}
+
+#Skills span{
+    padding: 10px 20px 10px 20px;
+}
+
+ hr{
+    border-width: 3px;
+   margin-top: 20px;
+   color: blue;
+
+}
+
+#Experience span{
+    padding: 10px 20px 10px 20px;
+}
+
+#Experience hr{
+    border-width: 3px;
+    margin-top: 20px;
+    color: green;
+}
+
+#Experience .card{
+    border-top: 3px solid #d63032;
+}
+
+#Contact span{
+    padding: 10px 20px 10px 20px;
+}
+
+#Contact hr{
+    border-width: 3px;
+    margin-top: 20px;
+    color: grey;
+}
